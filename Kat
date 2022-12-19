@@ -167,3 +167,7 @@ Tab1Section:NewToggle("Fov", "Changes Fov", function(state)
         game.Workspace.CurrentCamera.FieldOfView = 80
     end
 end)
+
+Tab3Section:NewButton("our discord", "join our discord to get updates!!!", function()
+    setclipboard("https://discord.gg/NFgTNAXduG")
+end)
